@@ -1,4 +1,3 @@
-// @ts-check
 const { test, expect, chromium } = require('@playwright/test');
 const { default: LoginPage } = require('./support/pages/login.page');
 const { default: ProductsPage } = require('./support/pages/products.page');
